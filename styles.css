@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-.header {
+.header-container {
     background-color: gray;
     height: 100px;
     display: flex;
@@ -15,4 +15,20 @@ h1 {
     font-weight: 100;
     color: black;
     margin: 0;
+}
+
+.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid;
+}
+
+td, th {
+    border: 1px solid;
+    padding: 10px 20px;
 }
