@@ -38,3 +38,14 @@ td, th {
     border: 1px solid;
     padding: 10px 20px;
 }
+
+.source-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+a {
+    font-size: 24px;
+}
