@@ -17,6 +17,12 @@ h1 {
     margin: 0;
 }
 
+.list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .table-container {
     display: flex;
     align-items: center;
