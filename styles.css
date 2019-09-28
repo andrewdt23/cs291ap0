@@ -54,6 +54,7 @@ td {
 .column-names {
     font-weight: bold;
     background-color: gray;
+    text-align: center;
 }
 
 .photos-container {
