@@ -1,0 +1,14 @@
+Q1: On average, how many requests can ab complete in 10 seconds with various power of two concurrency levels between 1 and 256?
+A1: 1-500, 2-1022, 4-1604, 8-2523, 16-5072, 32-16542, 64-19591, 128-20403, 256-25562, 512-25753
+
+Q2: Why are there diminishing returns at higher concurrency levels?
+A2: The server can most likely only handle a certain amount of concurrent requests at once. Once we exceed the maximum amount of concurrent requests, there are diminishing returns because it cannot continue to process all of the requests in parallel.
+
+Q3: What’s the difference when requesting HTTP and HTTPS?
+A3: They can complete a similar number requests in the same time, however I generally found that HTTPS could complete more requests on average than HTTP.
+
+Q4: How can github respond so quickly?
+A4: Github most likely has many servers and plenty of resources to handle requests. In addition, they may be taking advantage of CDN's or caching in order to serve requests more efficiently.
+
+Q5: What is your site’s “Time to Interactive” according to PageSpeed Insights?
+A5: 100
