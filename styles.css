@@ -46,9 +46,14 @@ table {
     border: 2px solid;
 }
 
-td, th {
+td {
     border: 1px solid;
     padding: 10px 20px;
+}
+
+.column-names {
+    font-weight: bold;
+    background-color: gray;
 }
 
 .photos-container {
