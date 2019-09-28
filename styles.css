@@ -17,10 +17,6 @@ h1 {
     margin: 0;
 }
 
-.list-container {
-    text-align: center;
-}
-
 h2 {
     margin-top: 30px;
     margin-bottom: 10px;
@@ -57,7 +53,7 @@ td {
     text-align: center;
 }
 
-.photos-container {
+.center-container {
     text-align: center;
 }
 
