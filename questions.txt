@@ -11,4 +11,4 @@ Q4: How can github respond so quickly?
 A4: Github most likely has many servers and plenty of resources to handle requests. In addition, they may be taking advantage of CDN's or caching in order to serve requests more efficiently.
 
 Q5: What is your site’s “Time to Interactive” according to PageSpeed Insights?
-A5: 100
+A5: 1.0 sec
